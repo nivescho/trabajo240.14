@@ -1,0 +1,41 @@
+ @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+ * {
+    margin: 0;
+    padding: 0;
+    font-family: "Press Start 2P";
+    margin-top: 10px;
+    margin-left: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./bulbasaur-asmr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20px;
+    text-align: center;
+}
+ 
+.info{
+    background-color: aliceblue;
+    padding: 20px 10px;
+}
+
+.flex-container{
+    display: flex;
+    width: 80vws;
+    flex-wrap: wrap;
+
+}
+
+.card{
+    width: 300px;
+}
+
+img{
+    width: 300px;
+}

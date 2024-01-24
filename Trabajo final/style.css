@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Belleza', sans-serif;
+    list-style: none;
+}
+
+
+
+body{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+header{
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+
+}
+
+.logo{
+    height: 250px;
+    margin-top: 100px;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.item{
+    margin: 0 15 px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    text-indent: 1em;
+    margin-left: 120px;   
+}
+
+
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.footer{
+    background-color: #f7b9d7;
+    padding: 80px 0;
+    margin-top: auto;
+}
+
+.footer-fila{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 25px;
+    font-weight: 500px;
+    border-bottom: 2px solid ;
+    padding-bottom: 10px;
+   
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color:aliceblue ;
+    display: block;
+    margin-bottom: 15px;
+    transition: all .3s ease;
+}
+.footer-links ul li a:hover {
+    color: aliceblue;
+    padding-left: 6px;
+}
+
+.social-links a{
+    display: inline-block;
+    min-height: 50px;
+    min-width: 50px;
+    background-color: #ff007b;
+    margin: 0 1s0px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: aliceblue;
+    transition: all 3s ease;
+    align-items: center;
+
+
+}
+
+.social-links a:hover{
+    background-color: rgb(195, 170, 243);
+
+
+}
+
+@media (max-width:991px) {
+    .footer-fila{
+        text-align: center;
+    }
+    
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+.menu .item a {
+    text-decoration: none; /* Eliminar el subrayado */
+    color: #ffffff;
+ } /* Color del texto de los enlaces */
